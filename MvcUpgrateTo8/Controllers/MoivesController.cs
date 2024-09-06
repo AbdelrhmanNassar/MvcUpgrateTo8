@@ -19,7 +19,7 @@ namespace MvcUpgrateTo8.Controllers
 
         //baseUrl/Movies/GetMovie
         [HttpGet]
-        public IActionResult GetMovie(int id)
+        public IActionResult GetMovie(int id,string name,Employee emp)
         {
 
             if (id == 0)
@@ -35,6 +35,8 @@ namespace MvcUpgrateTo8.Controllers
                                   //   result.StatusCode = 200 ;
                                   //   return result;
             return Content($"<h1> MoiveId:{id} </h1>", "text/html");//Helper method
+        
+        
         }
 
         [HttpGet]
