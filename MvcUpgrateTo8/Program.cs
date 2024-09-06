@@ -13,6 +13,7 @@ internal class Program
 
 
         var app = builder.Build(); //refer To kestral
+        app.UseStaticFiles();
        app.MapGet("/", () => "Hello World!");
 
         //app.MapGet("/abdo", async context =>
