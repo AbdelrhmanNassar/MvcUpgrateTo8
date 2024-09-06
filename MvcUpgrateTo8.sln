@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcUpgrateTo8", "MvcUpgrateTo8\MvcUpgrateTo8.csproj", "{9F5B93C0-AFDC-416C-B196-2D67C98A1190}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F5B93C0-AFDC-416C-B196-2D67C98A1190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5B93C0-AFDC-416C-B196-2D67C98A1190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5B93C0-AFDC-416C-B196-2D67C98A1190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5B93C0-AFDC-416C-B196-2D67C98A1190}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {153304CB-1745-48FA-8BD2-D53904294FDC}
+	EndGlobalSection
+EndGlobal
