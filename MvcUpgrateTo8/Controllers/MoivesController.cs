@@ -9,6 +9,7 @@ namespace MvcUpgrateTo8.Controllers
         private IConfiguration _configuration;
         public MoviesController(IConfiguration configuration)//ask Clr for CREATING  object from class implement IConfiguration To use app setting
         {
+
             _configuration = configuration;
         }
 
