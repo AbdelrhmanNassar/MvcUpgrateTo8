@@ -5,7 +5,7 @@ internal class Program
         var builder = WebApplication.CreateBuilder(args);//this is whole web app
        
         #region register service
-        // builder.Services.AddControllers();//Register Api services(Controller service,ModelBinding,Actions Filtration ,configuration ,etc)
+        // builder.Services.AddControllers();//Register Api services(Controller service,ModelBinding,Actions Filtration ,etc)
         builder.Services.AddControllersWithViews();//Register MVC services(Controller service,ModelBinding,Actions Filtration ,etc)
                                                    //  b
         #endregion
