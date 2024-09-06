@@ -26,7 +26,7 @@ internal class Program
         app.MapControllerRoute(//just i call the name of paramter to understand
             name: "Default",
           pattern/*URL Path*/ : "{controller=Movies}/{action=Index}/{id:int?}" //defualt and constrain if i send nothing or sent only controller or action
-          
+            
           
           );
 
