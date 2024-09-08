@@ -13,7 +13,8 @@ internal class Program
 
 
         var app = builder.Build(); //refer To kestral
-//        app.MapGet("/", () => "Hello World!");
+        app.UseStaticFiles();
+       app.MapGet("/", () => "Hello World!");
 
         //app.MapGet("/abdo", async context =>
         //{
@@ -25,8 +26,8 @@ internal class Program
 
         app.MapControllerRoute(//just i call the name of paramter to understand
             name: "Default",
-          pattern/*URL Path*/ : "{controller=Movies}/{action=Index}/{id:int?}" //defualt and constrain if i send nothing or sent only controller or action
-          
+          pattern/*URL Path*/ : "{controller=Home}/{action=Index}/{id:int?}" //defualt and constrain if i send nothing or sent only controller or action
+            
           
           );
 
